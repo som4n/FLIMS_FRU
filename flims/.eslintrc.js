@@ -22,5 +22,15 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    'linebreak-style': ['error', 'unix'],
+    'comma-spacing': 'error',
+    'space-infix-ops': 'error',
+    'react/function-component-definition': 'error',
+    'arrow-spacing': 'error',
+    'react/jsx-indent': ['error', 2],
+    'react/jsx-tag-spacing': ['error', { beforeSelfClosing: 'always' }],
+    'no-trailing-spaces': 'error',
+    'eol-last': ['error', 'always'],
+
   },
 };
